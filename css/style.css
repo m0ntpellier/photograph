@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    margin-right: 50px;
+}
+.navbar{
+    height: 45px;
+    background-color: black;
+    padding: 0;
+}
+.navbar ul{
+    list-style-type: none;
+    height: 40px;
+    margin: 0;
+    padding-top: 5px;
+    overflow: hidden;
+    background-color: black;
+    text-transform: uppercase;
+}
+.navbar ul li{
+    float: left;      
+    border-left:1px solid #bbb;        
+}
+.navbar li:first-child {
+    border:none;
+   
+   }
+.navbar ul li a{
+    display: block;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 2px 40px;
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+transform: scale(1.1);
+}
+.social{
+margin-left: 100px;
+}
+.social .circle{
+    box-shadow:0 0 55px 2px #fff;
+    position: relative;
+    top: 25px;
+    width: 40px; 
+    height: 40px;
+    background: #b10909;
+    border-radius: 50%;
+    border-color: white; /* Цвет границы */ 
+    border-style: solid; /* Стиль границы */  
+    float: left; /*Задаем обтекание*/
+    margin-right: 20px;
+    color: white;
+
+}
+.social .circle:hover{
+    transform: scale(1.2);
+}
+.circle img{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    bottom: 5px; /* Положение от нижнего края */
+    right: 5px; /* Положение от правого края */
+    line-height: 1px;
+
+}
